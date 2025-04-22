@@ -32,7 +32,7 @@ const Event_card = ({event}) => {
     return (
         <>  
             <div className='event-card'>
-                <div className='event-card-image'>
+                <div className='event-card-header'>
                     <img className='event-card-image' src={imageUrl} alt={imageDescription} />
                     <span className='event-card-category'>{event.category}</span>
                 </div>
@@ -40,12 +40,8 @@ const Event_card = ({event}) => {
                     <p className='event-card-title'>{event.title}</p>
                     <p className='event-card-location'>{event.location}</p>
                     <div className='event-card-footer'>
-                        <div className='event-card-date'>
-                            <span><i className="fa-solid fa-calendar-days"></i></span> {event.date}
-                        </div>
-                        <div className='event-card-price'>
-                            <span><i className="fa-solid fa-dollar-sign"></i></span>{event.price}
-                        </div>
+                        <span className='event-card-date'><i className="fa-solid fa-calendar-days"></i>{event.date} </span>
+                        <span className='event-card-price'><i className="fa-solid fa-dollar-sign"></i>{event.price} </span>
                     </div>
                 </div>
             </div>

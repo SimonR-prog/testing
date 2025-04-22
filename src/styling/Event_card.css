@@ -15,8 +15,13 @@
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-.event-card-image{
+.event-card-header{
     background-color: var(--cool-grey-20);
+    position: relative;
+    width: 250px;
+    height: 164px;
+}
+.event-card-image{
     position: relative;
     width: 250px;
     height: 164px;
