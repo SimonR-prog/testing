@@ -5,15 +5,23 @@ import './styling/Event_card.css'
 import './styling/Calendar_days_card.css'
 
 
+import PaidStatusesCard from './PaidStatusesCard'
 // import CalendarDaysCard from './CalendarDaysCard.jsx'
-import Event_card from './components/Event_card';
-import Eventcard from './eventcard'
+// import Eventcard from './eventcard'
+
+
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+    
     {/* <CalendarDaysCard /> */}
-    <Eventcard />
-    {/* <SmallPaidCard /> */}
+    {/* <Eventcard /> */}
+
+    <PaidStatusesCard />
+
+
+
   </StrictMode>,
 )
 
