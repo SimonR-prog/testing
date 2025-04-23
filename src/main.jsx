@@ -3,11 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './App.css'
 import './styling/Event_card.css'
 import './styling/Calendar_days_card.css'
-
+import './styling/PaidStatusCard.css'
 
 import PaidStatusesCard from './PaidStatusesCard'
-// import CalendarDaysCard from './CalendarDaysCard.jsx'
-// import Eventcard from './eventcard'
+import CalendarDaysCard from './CalendarDaysCard.jsx'
+import Eventcard from './eventcard'
 
 
 
@@ -15,8 +15,8 @@ import PaidStatusesCard from './PaidStatusesCard'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     
-    {/* <CalendarDaysCard /> */}
-    {/* <Eventcard /> */}
+    <CalendarDaysCard />
+    <Eventcard />
 
     <PaidStatusesCard />
 
