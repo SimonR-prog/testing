@@ -1,9 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import './App.css'
-import './styling/Event_card.css'
-import './styling/Calendar_days_card.css'
-import './styling/PaidStatusCard.css'
+
+import './stylings.jsx';
 
 import PaidStatusesCard from './PaidStatusesCard'
 import CalendarDaysCard from './CalendarDaysCard.jsx'
@@ -17,7 +15,6 @@ createRoot(document.getElementById('root')).render(
     
     <CalendarDaysCard />
     <Eventcard />
-
     <PaidStatusesCard />
 
 
