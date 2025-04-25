@@ -24,7 +24,6 @@ const PaidStatusCard = ({payStatus}) => {
         CheckPaidStatus();
     }, [payStatus])
 
-
     return (
         <>
             <div className='paidStatusCard-wrapper'>

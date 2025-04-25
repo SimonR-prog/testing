@@ -40,8 +40,8 @@ const Event_card = ({event}) => {
                     <p className='event-card-title'>{event.title}</p>
                     <p className='event-card-location'>{event.location}</p>
                     <footer className='event-card-footer'>
-                        <span className='event-card-date'><i className="fa-solid fa-calendar-days"></i>{event.date} </span>
-                        <span className='event-card-price'><i className="fa-solid fa-dollar-sign"></i>{event.price} </span>
+                        <p className='event-card-date'><i className="fa-solid fa-calendar-days"></i>{event.date} </p>
+                        <p className='event-card-price'><i className="fa-solid fa-dollar-sign"></i>{event.price} </p>
                     </footer>
                 </section>
             </div>
