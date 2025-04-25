@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 
-import './stylings.jsx';
+import './App.css'
 
 import PaidStatusesCard from './PaidStatusesCard'
 import CalendarDaysCard from './CalendarDaysCard.jsx'

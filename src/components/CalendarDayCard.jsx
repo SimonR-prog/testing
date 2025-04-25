@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './styling/Calendar_days_card.css'
 
 const CalendarDayCard = ({calendarDays}) => {
     //Carrier for the class which gets switched below.

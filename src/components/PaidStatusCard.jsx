@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import './styling/PaidStatusCard.css'
 
 const PaidStatusCard = ({payStatus}) => {
     const [paidStatusIcon, setPaidStatusIcon] = useState("");
