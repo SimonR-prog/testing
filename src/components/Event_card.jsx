@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import './styling/Event_card.css'
+import '../styling/Event_card.css'
 
 const Event_card = ({event}) => {
     const [imageUrl, setImageUrl] = useState("Working...");
