@@ -17,6 +17,14 @@ Usage:
 <img src="https://github.com/user-attachments/assets/403aa4e9-b8a1-423c-b432-d963bae306b3" height="200">
 
 
+```jsx
+<div>
+  {calendar_days.map((calendarDays, index) => ( <CalendarDayCard key={index} calendarDays={calendarDays} /> ))}
+</div>
+```
+
+
+
 ### PaidStatusCard:
 
 Paid status card will change the little icon depening on the status. (Paid/Unpaid/Overdue)
